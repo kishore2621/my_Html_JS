@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        section{
+            height: 200px;
+            width: 200px;
+            background-color: aqua;
+            margin-left: 400px;
+            margin-top: 250px;
+            animation-name: abc;
+            animation-duration: 5s;
+            animation-iteration-count: infinite
+            ;
+        }
+        /* section:hover{
+            /* transform: rotate(360deg) scale(3) skew(360deg); 
+            transform: rotate3d(1,1,1,360deg) scale(2);
+            transition: 3s;
+        } */
+        @keyframes abc {
+            0%{ background-color: aqua; transform:  scale(0.5) rotate3d(1,1,0,360deg)}
+            25%{ background-color: black;transform: scale(1) rotate3d(1,1,0,45deg)}
+            50%{background-color: blue;transform: scale(1.5) rotate3d(0,0,1,90deg
+                )}
+            75%{background: linear-gradient(green ,gold,brown);transform:  scale(2)}
+            100%{ background-color: chartreuse;transform:  scale(2.5)}
+            
+        }
+
+    </style>
+</head>
+<body>
+    <section>
+      
+
+    </section>
+</body>
+</html>

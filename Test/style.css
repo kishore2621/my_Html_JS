@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    height: 70px;
+    width: 100%;
+    background-color: #000000;
+    display: flex;
+}
+nav>.a
+{
+    height: 100%;
+    width: 50%;
+    font-weight: bold;
+    font-size:  medium;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    
+}
+nav>.c
+{
+    height: 100%;
+    width: 50%;
+    font-weight: bold;
+    font-size:  medium;
+    color: whitesmoke;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+}
+nav>.c>button
+{
+    height: 80%;
+    width: 20%;
+    border-radius: 10px;
+    border: 0px 0px 10px blue;
+    border-color: blue;
+    background-color: black;
+    color: white;
+    margin-right: 20px;
+   
+}
+nav>.c>button>h2{
+    font-size: small;
+}
+nav>.c>button >h2:hover
+{
+    color: blue;
+    cursor: pointer;
+}
+section
+{
+    height: 89vh;
+    width: 100%;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section>.back{
+    height: 400px;
+    width: 400px;
+    background: linear-gradient( orange,yellow, orange,yellow, orange);
+    transform: rotate(-10deg);
+    border-radius: 20px;
+    
+}
+section>.f{
+    height: 380px;
+    width: 380px;
+    background-color: white;
+    position: absolute;
+    left: 495px;
+    transform: rotate(-5deg);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section>.f>.login
+{
+    height: 80%;
+    width: 90%;
+    /* background-color: blue; */
+    
+}
+section>.f>.login>.w
+{
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+section>.f>.login>.i>input{
+    height: 20px;
+    width: 90%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-left: 20px;
+}
+section>.f>.login>.i :hover :focus{
+    outline: none;
+ 
+}
+section>.f>.login>.pass>input
+{
+    height: 20px;
+    width: 90%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-left: 20px;
+}
+section>.f>.login>.login
+{
+    height: 30px;
+    width: 50px;
+    /* background-color: aqua; */
+}
+section>.f>.login>.login>button
+{
+    height: 100%;
+    width: 100%;
+    background-color: gray;
+    color: white;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+}
+footer{
+    height: 40px;
+    width: 100%;
+    background-color: black;
+}
+

@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    height: 100vh;
+    width: 100vw;
+    background-color: #182d57;
+}
+section>article
+{height: 100%;
+    width: 100%;
+
+}
+section>article>.text
+{
+    height: 100%;
+    width: 50%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+section>article>.text>.q
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 37px;
+    color: rgba(240, 67, 5, 0.884);
+    font-weight: bolder;
+    margin-bottom: 60px;
+
+}
+section>article>text>.t
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 37px;
+    color: rgba(240, 67, 5, 0.884);
+    font-weight: bolder;
+    margin-bottom: 60px;
+}

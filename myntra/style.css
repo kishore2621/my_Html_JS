@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    height: 80px;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0px 0px 1px 0px;
+    display: flex;
+    justify-content: center;
+}
+nav>article{
+    height: 100%;
+    width: 96%;
+    /* background-color: black; */
+    display: flex;
+}
+nav>article>.logo
+{
+    height: 100%;
+    width: 8%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: end;
+}
+nav>article>.logo>img
+{
+ height: 82%;
+ width: 90%;
+}
+nav>article>.menu
+{
+    height: 100%;
+    width: 38%;
+    /* background-color: red; */
+    
+}
+nav>article>.menu>ol
+{height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+nav>article>.menu>ol>li>a
+{
+    color:rgb(51, 47, 47);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+}
+nav>article>.searchbar
+{
+    height: 100%;
+    width: 40%;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+nav>article>.searchbar>div
+{
+    height: 40px;
+    width: 72%;
+    
+    display: flex;
+    justify-content: end;
+    border: 0px solid gainsboro;
+    border-radius: 6px;
+    align-items: center;
+    background-color: whitesmoke;
+    
+}
+nav>article>.searchbar>div>input
+{
+    height: 100%;
+    width: 90%;
+    border: none;
+    color: gray;
+  background-color: whitesmoke;
+}
+nav>article>.searchbar>div>input :hover :focus
+{
+ outline: none;
+ 
+}
+nav>article>.searchbar>div>i
+{
+    
+    color: gray;
+    margin: 15px;
+    background-color: whitesmoke;
+    
+
+}
+nav>article>.icon
+{
+    height: 100%;
+    width: 14%;
+     /* background-color: blue;  */
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    
+}
+nav>article>.icon>.profile
+{
+    height: 100%;
+    width: 35%;
+     /* background-color: aqua;  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+nav>article>.icon>.wish
+{
+    height: 100%;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+nav>article>.icon>.bag
+{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
